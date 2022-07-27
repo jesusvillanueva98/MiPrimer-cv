@@ -1,0 +1,165 @@
+h1{
+    text-align: center;
+}
+
+span{
+font-size: 30px;
+
+}
+
+
+body{
+    background-color: hsl( 339, 3%,  27%);
+
+}
+
+
+
+
+.imagen{
+ background-image: url(./img/fondo\ pagina\ web.jpg);
+ background-repeat: no-repeat;  
+ background-size: cover;
+ height: 100%;
+ width: 100%;
+ padding: 90px;
+ background-position: center;
+ background-attachment: fixed;
+ opacity: 0.6;
+}
+
+
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-repeat: repeat;
+    }
+}
+
+.titulo{
+    color: gold ;
+    text-align: center;
+    font-size: 80px;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    .span1{
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        border-right: 2px solid;
+        width: 65%;
+        color: gold;
+        animation: escribiendo 2s steps(32), blink .5s infinite step-end alternate;
+        overflow: hidden;
+        }
+        @keyFrames escribiendo {
+        from { width: 0}
+        }
+        @keyFrames blink {
+         50% { border-color: transparent}
+        }
+
+
+.skills{
+     display: center;
+    background-color: hsl( 339, 3%,  27%);
+    text-align: center;
+    color: goldenrod;
+}
+
+.skillprimera{
+    background-color: gold;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hr1{
+    width: 2000px;
+    margin: auto;
+    border: dotted;
+    color: goldenrod;
+    }
+
+.primero{
+    text-align: center;
+    color: goldenrod;
+   font-size: 60px;
+   font-family: monospace;
+}
+
+.parrafo1{
+    text-align: center;
+    font-size: 27px;
+    color: hsl(76, 65%, 66%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hr2{
+    width: 2000px;
+    margin: auto;
+    border: dotted;
+    color: goldenrod;
+    }
+
+.tituloHobbie{
+    text-align: center;
+    color: goldenrod;
+}
+
+.juego{
+color: goldenrod;
+text-align: center;
+padding: 20px;
+}
+
+.icono1{
+text-align: center;
+}
+
+.parrafojuego{
+    color: hsl(76, 65%, 66%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titulohobbie2{
+    color: goldenrod;
+    padding: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icono2{
+    text-align: center;
+}
+
+.parrafoprogramacion{
+    color: hsl(76, 65%, 66%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.caja_principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: hsl(76, 65%, 66%);
+    order:initial;
+}
+
+.caja_principal div{
+    margin: 20px;
+    padding: 20px;
+    background-color: hsl( 339, 3%,  27%);
+}
+
+
